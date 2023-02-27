@@ -1,0 +1,48 @@
+invDepth_min_range: 0.05
+invDepth_max_range: 2.0
+residual_vis_threshold: 30
+stdVar_vis_threshold: 1.0
+age_max_range: 10
+age_vis_threshold: 1
+fusion_radius: 1
+FUSION_STRATEGY: "CONST_FRAMES" # "CONST_FRAMES"
+maxNumFusionFrames: 10
+maxNumFusionPoints: 20000
+Denoising: False
+SmoothTimeSurface: True
+Regularization: True
+bVisualizeGlobalPC: True
+visualizeGPC_interval: 0.5
+NumGPC_added_per_refresh: 10000
+visualize_range: 50
+PROCESS_EVENT_NUM: 10000
+TS_HISTORY_LENGTH: 100
+INIT_SGM_DP_NUM_THRESHOLD: 500
+mapping_rate_hz: 20
+# DepthProblemConfig
+patch_size_X: 15
+patch_size_Y: 7
+LSnorm: Tdist # l2
+Tdist_nu: 2.182
+Tdist_scale: 17.277
+Tdist_stdvar: 59.763
+# EventBM parameters
+BM_half_slice_thickness: 0.001
+BM_min_disparity: 1
+BM_max_disparity: 100
+BM_step: 1
+BM_ZNCC_Threshold: 0.1
+BM_bUpDownConfiguration: False
+# ESKF parameters
+initial_covariance_translation: 5.0
+initial_covariance_velocity: 5.0
+initial_covariance_rotation: 5.0
+initial_covariance_acc_bias: 5.0
+initial_covariance_gyro_bias: 5.0
+noise_acc: 1.27e-3
+noise_gyro: 7.29e-4
+noise_acc_bias: 5.64e-5
+noise_gyro_bias: 6.996e-6
+noise_observation_translation: 1.0e-3
+noise_observation_rotation: 7.0e-4
+imu_initial_num_max: 200
