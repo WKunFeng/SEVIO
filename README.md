@@ -6,3 +6,16 @@
 
 We have tested SEVIO on machines with the following configurations
 * Ubuntu 18.04.5 LTS + ROS melodic + OpenCV 3.2
+
+
+# 2. Usage
+
+
+
+
+
+# 3. Notes
+
+
+
+# 4. Datasets
