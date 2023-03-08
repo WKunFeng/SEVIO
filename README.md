@@ -4,7 +4,7 @@
 
 # 1. Installation
 
-We have tested SEVIO on machines with the following configurations
+We have tested SEVIO on machines with the following configuration
 * Ubuntu 18.04.5 LTS + ROS melodic + OpenCV 3.2
 
 
