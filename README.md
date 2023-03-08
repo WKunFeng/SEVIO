@@ -60,8 +60,25 @@ run
 
 # 2. Usage
 
+## 2.1 time_surface
+This package implements a node that constantly updates the stereo time maps (i.e., time surfaces). To launch it independently, open a terminal and run the command:
 
+    $ roslaunch sevio_time_surface stereo_time_surface.launch
+    
+To play a bag file, go to `sevio_time_surface/launch/rosbag_launcher` and modify the path in 
+`[bag_name].launch` according to where your rosbag file is downloaded. Then execute
 
+    $ roslaunch sevio_time_surface [bag_name].launch
+    
+## 2.2 full system
+
+To launch the system, run
+
+    $ roslaunch sevio_core system_xxx.launch
+
+This will launch two *esvo_time_surface nodes* (for left and right event cameras, respectively). Then play the input bag file by running
+
+    $ roslaunch sevio_time_surface [bag_name].launch
 
 
 # 3. Notes
