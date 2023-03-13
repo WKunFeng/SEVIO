@@ -1,6 +1,8 @@
 # SEVIO
 
 **SEVIO** is a novel visual-inertial odemetry for a stereo event-based camera. Our visual module follow the work **[ESVO Project Page](https://sites.google.com/view/esvo-project-page/home)**, and fusion module based on EKF.
+**video: **
+**paper: **
 
 # 1. Installation
 
